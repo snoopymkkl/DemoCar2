@@ -1,0 +1,42 @@
+<resources>
+    <string name="app_name">DemoCar20161228</string>
+
+    <!--main-->
+    <string name="car_str_find">找车</string>
+    <string name="car_str_news">资讯</string>
+    <string name="car_str_price">降价</string>
+    <string name="car_str_question">问答</string>
+    <string name="car_str_self">我的</string>
+
+    <string name="news_str_title">资讯</string>
+    <string name="news_str_importan">要闻</string>
+    <string name="news_str_car">新车</string>
+    <string name="news_str_buy">导购</string>
+    <string name="news_str_try">试车</string>
+    <string name="news_str_picture">图解</string>
+    <string name="news_str_market">行业</string>
+
+    <string name="find_str_brand">品牌找车</string>
+    <string name="find_str_filter">精准找车</string>
+    <string name="find_str_price">价格</string>
+    <string name="find_str_level">级别</string>
+    <string name="find_str_pai">排量</string>
+    <string name="find_str_bian">变速箱</string>
+
+    <string name="fragment_find_str_price1">5万以下</string>
+    <string name="fragment_find_str_price2">5–8万</string>
+    <string name="fragment_find_str_price3">8–12万</string>
+
+    <string name="fragment_find_str_level1">微型车</string>
+    <string name="fragment_find_str_level2">小型车</string>
+    <string name="fragment_find_str_level3">紧凑车</string>
+
+    <string name="fragment_find_str_pai1">1.3L以下</string>
+    <string name="fragment_find_str_pai2">1.3–1.6L</string>
+    <string name="fragment_find_str_pai3">1.7–2.0L</string>
+
+    <string name="fragment_find_str_bian1">手动挡</string>
+    <string name="fragment_find_str_bian2">自动挡</string>
+    <string name="fragment_find_str_bian3">手自一体</string>
+
+</resources>
