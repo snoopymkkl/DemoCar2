@@ -22,6 +22,12 @@ import org.xutils.x;
 
 /**
  * 主Activity, 控制五个标签的选择, Fragment的切换
+ * 知识点:
+ *      1.打开主程序, 自动切换到<资讯>栏
+ *      2.双击返回退出程序
+ *      3.FragmentTransaction切换Fragment
+ *              replace()替换Fragment
+ *              instantiate 获取Fragment实例
  */
 
 public class MainActivity extends FragmentActivity {
@@ -73,8 +79,9 @@ public class MainActivity extends FragmentActivity {
         setContentView(R.layout.activity_main);
         x.view().inject(this);
         //默认选中第一个标签
-        car_iv_news.setSelected(true);
-        car_tv_news.setTextColor(getResources().getColor(R.color.car_cl_choose));
+        viewOnClick(car_llyt_news);
+//        car_iv_news.setSelected(true);
+//        car_tv_news.setTextColor(getResources().getColor(R.color.car_cl_choose));
     }
 
     //这里点击整个模块, 使用LinearLayout ID
